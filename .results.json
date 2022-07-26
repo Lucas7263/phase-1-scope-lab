@@ -1,0 +1,59 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 1,
+    "start": "2022-07-26T00:05:46.637Z",
+    "end": "2022-07-26T00:05:46.860Z",
+    "duration": 223
+  },
+  "tests": [
+    {
+      "title": "returns the customerName",
+      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "modifies the customerName variable",
+      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "setBestCustomer",
+      "fullTitle": "Fix the Scope setBestCustomer() setBestCustomer",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "message": "expected 'not bob' to equal undefined",
+        "showDiff": true,
+        "actual": "not bob",
+        "stack": "AssertionError: expected 'not bob' to equal undefined\n    at Context.<anonymous> (test/indexTest.js:19:38)\n    at processImmediate (node:internal/timers:466:21)"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "returns the customerName",
+      "fullTitle": "Fix the Scope declare customerName to be bob in global scope returns the customerName",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "modifies the customerName variable",
+      "fullTitle": "Fix the Scope upperCaseCustomerName() modifies the customerName variable",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
